@@ -21,7 +21,7 @@ async function verificarCredenciais() {
 }
 
 async function lerUsuario(email) {
-    const replit = 'https://22f66d55-d5ba-493c-a6b4-20dbf42c35db-00-yev5hgdqpo2k.spock.replit.dev/'; // URL do projeto no Replit.com.
+    const replit = 'https://745dc184-14a3-4e7d-8a24-98497b065302-00-2vq77txt4ob8a.janeway.replit.dev:3000/'; // URL do projeto no Replit.com.
     const url = replit + `usuarios?email=${email}`;
     let usuario;
 
